@@ -31,7 +31,7 @@ console.log(firstMiddleLast());
 // 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
 const word = ' Hippopotomonstrosesquipedaliophobic'
 function alphabetSoup(str){
-  return word.split('').sort().join(' ')
+  return word.toLowerCase().split('').sort().join(' ')
 }
 console.log(alphabetSoup());
 // 5. Given the arrays below, write a function animalNums that uses a for loop to print one value from each array concatenated together.
