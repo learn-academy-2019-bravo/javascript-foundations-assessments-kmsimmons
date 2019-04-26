@@ -54,3 +54,5 @@ JSON stands for JavaScript Object Notation.  It allows/helps us connect data in 
 
 3. Describe a closure, what is it good for and how do you recognize one?
 When your girlfriend breaks up with you, then you see her out the next day with another dude.  (I'm not sure in dev terms though and I ran out of time :( ...)
+
+Just kidding, I found it: A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain.
